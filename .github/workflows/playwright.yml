@@ -1,9 +1,9 @@
 name: Sauce Demo Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, nov8branch ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, nov8branch ]
 jobs:
   test:
     timeout-minutes: 60
